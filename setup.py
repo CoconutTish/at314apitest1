@@ -7,5 +7,5 @@ setup(name='YourAppName',
       author_email='example@example.com',
       url='https://www.python.org/community/sigs/current/distutils-sig',
       #install_requires=['Flask>=0.7.2', 'MarkupSafe'],
-      install_requires=['Flask','flask-wtf','flask-babel','markdown','flup','wtforms','app','unirest','django-crispy-forms','bokeh','Flask-PyMongo','simple','database'],
+      install_requires=['Flask','flask-wtf','wtforms','unirest','bokeh','Flask-PyMongo','flask_navigation'],
       )
