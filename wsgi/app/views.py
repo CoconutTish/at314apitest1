@@ -9,7 +9,9 @@ nav = Navigation(app)
 nav.Bar('top', [
 nav.Item('Home', 'index'),
 nav.Item('Emotion Sentiment Predictor', 'emotion'),
-nav.Item('Data Visualisation', 'polynomial')
+nav.Item('Data Visualisation', 'polynomial'),
+nav.Item('Database Collections', 'get_all_databases'),
+nav.Item('Database Personnel', 'get_all_personnel')
 ])
 
 @app.route('/')
@@ -39,3 +41,4 @@ def emotion_post():
 @app.route('/visualization')
 def colur():
     return simple.polynomial()
+

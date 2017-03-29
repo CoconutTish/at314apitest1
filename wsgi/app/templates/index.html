@@ -1,10 +1,24 @@
 {% extends "base.html" %}
-{% block title %} Welcome! {% endblock %}
+{% block title %} Welcome - we're API crazy! {% endblock %}
 {% block content %}
-      <h5 class="header col s12 light">Visit our app written is Flask+Python!</h5>
+      <h5>This Web App was written in Flask + Python!</h5>
       </div>
       <div class="row center">
-        <a href="emotion" id="download-button" class="btn-large waves-effect waves-light orange">Emotion Sentiment Predictor</a>
-        <a href="visualization" id="download-button" class="btn-large waves-effect waves-light orange">Data Visualisation</a>
+        <h5 class="header col s12 light">Emotion Sentiment Predictor:</h5>
+          <ul>
+            <li>Takes user input of sentiment (in text format - word, sentence or phrase) and displays one of three images to exhibit their mood - a negative, neutral or positive face. A default image is displayed by default, when the app has initially loaded.</li>
+            </ul>
+        <h5 class="header col s12 light">Data Visualisation:</h5>
+          <ul>
+            <li>Exhibits a simple polynomial graph with basic user-enabled configuration options of graph colour and graph input value range </li>
+            </ul>
+        <h5 class="header col s12 light">Database Collections:</h5>
+          <ul>
+            <li>TBC</li>
+            </ul>
+        <h5 class="header col s12 light">Database Personnel:</h5>
+          <ul>
+            <li>TBC</li>
+            </ul>
       </div>
 {% endblock %}
