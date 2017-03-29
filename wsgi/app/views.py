@@ -3,7 +3,6 @@ from flask import render_template, request
 import unirest
 from forms import MessageForm
 from flask_navigation import Navigation
-import simple
 import database
 
 nav = Navigation(app)
